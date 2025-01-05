@@ -8,7 +8,7 @@ create table blk_data (
 
 
 declare @file nvarchar(max) = 'DATA20241202'
-declare @Date date = '2024-12-11'
+declare @Date date = '2024-11-02';
 
 declare @sql nvarchar(max) = '
 bulk insert blk_data

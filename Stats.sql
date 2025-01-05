@@ -1,4 +1,4 @@
--- Rapport statistique sur les Offres
+-- Rapport statistique sur la table Offre
 SELECT 
     S.NumberID AS StoreID,
     S.Description AS StoreName,
