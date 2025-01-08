@@ -25,67 +25,67 @@ WHERE NOT EXISTS (
 -- J'ai pas eu le courage de tout optimiser, bonne chance...
 
 -- Alimentaire
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Alimentaire)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Alimentaire)';
 
 -- Artisanat
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 1000 WHERE Category = '(Artisanat)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 1000 WHERE Category = '(Artisanat)';
 
 -- Audio
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 800 WHERE Category = '(Audio)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 800 WHERE Category = '(Audio)';
 
 -- Automobile
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Automobile)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Automobile)';
 
 -- Beauté
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 1000 WHERE Category = '(Beauté)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 1000 WHERE Category = '(Beauté)';
 
 -- Bureau
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Bureau)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Bureau)';
 
 -- Cuisine
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 1000 WHERE Category = '(Cuisine)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 1000 WHERE Category = '(Cuisine)';
 
 -- Décoration
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Décoration)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Décoration)';
 
 -- Éclairage
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Éclairage)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Éclairage)';
 
 -- Électronique
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 1000 WHERE Category = '(Électronique)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 1000 WHERE Category = '(Électronique)';
 
 -- High-Tech
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 1000 WHERE Category = '(High-Tech)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 1000 WHERE Category = '(High-Tech)';
 
 -- Hygiène
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 200 WHERE Category = '(Hygiène)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 200 WHERE Category = '(Hygiène)';
 
 -- Jardinage
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Jardinage)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Jardinage)';
 
 -- Jouets
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Jouets)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Jouets)';
 
 -- Loisirs
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 1000 WHERE Category = '(Loisirs)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 1000 WHERE Category = '(Loisirs)';
 
 -- Maison
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 550 WHERE Category = '(Maison)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 550 WHERE Category = '(Maison)';
 
 -- Santé
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 800 WHERE Category = '(Santé)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 800 WHERE Category = '(Santé)';
 
 -- Sport
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Sport)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Sport)';
 
 -- Textile
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Textile)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Textile)';
 
 -- Transport
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 1000 WHERE Category = '(Transport)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 1000 WHERE Category = '(Transport)';
 
 -- Vêtement
-UPDATE CategoryThreshold SET MinPrice = 1, MaxPrice = 500 WHERE Category = '(Vêtements)';
+UPDATE CategoryThreshold SET MinPrice = 5, MaxPrice = 500 WHERE Category = '(Vêtements)';
 
 -- Validate the Updated Thresholds
 SELECT * FROM CategoryThreshold;
