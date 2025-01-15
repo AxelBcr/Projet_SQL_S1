@@ -7,7 +7,7 @@ create table blk_data (
 )
 
 
-declare @file nvarchar(max) = 'DATA20241202'
+declare @file nvarchar(max) = 'DATA20241111'
 declare @Date date = '2024-11-02';
 
 declare @sql nvarchar(max) = '
