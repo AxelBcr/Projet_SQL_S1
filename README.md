@@ -24,7 +24,7 @@ Ce projet SQL a pour but de centraliser et analyser des données commerciales. I
 - **Si les seuils de prix sont modifiés**, exécuter `Thresholds.sql` à nouveau.
 - **Après chaque nouvel import de données**, relancer `Stats.sql` pour mettre à jour les statistiques.
 
-## 🔧 Technologies utilisées
+## 🔧 Ont été utilisées
 - **SQL Server** pour le stockage et le traitement des données
 - **BULK INSERT** pour l'importation rapide des fichiers CSV
 - **Scripts dynamiques SQL** pour l'automatisation des processus
